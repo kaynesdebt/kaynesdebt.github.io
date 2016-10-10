@@ -82,7 +82,7 @@ html {
 }
 
 body {
-	background-image: url('./images/sad.jpg');
+	background-image: url('/images/sad.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover !important;
@@ -92,20 +92,6 @@ body {
 	min-width:600px;
 	min-height: 800px;
 	width:100%;
-}
-
-.jail body { 
-	background-image: url('/images/injail2.jpg');
-	background-position: center center;
-	background-size: cover;
-/*	min-height: 1200px; */
-}
-
-.hospital body {
-	background-image: url('/images/hospital3.jpg');
-	background-size: cover;
-	background-position: center center;
-	min-height: 0;
 }
 
 #wrapper {
